@@ -88,3 +88,49 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+# Customizations
+
+# OS X settings
+include osx::dock::dim_hidden_apps
+include osx::dock::autohide
+include osx::global::expand_print_dialog
+include osx::global::expand_save_dialog
+
+osx::recovery_message { 'If this Mac is found, please call 303-520-9896': }
+
+# iTerm2
+include iterm2::dev
+include iterm2::colors::solarized_light
+include iterm2::colors::solarized_dark
+include iterm2::colors::arthur
+
+# Some more
+
+include hipchat
+include alfred
+include flux::beta
+include github_for_mac
+include onepassword
+include dropbox
+include chrome
+include transmission
+
+# Shell
+
+include zsh
+include ohmyzsh
+
+# MySQL
+
+include mysql
+
+mysql::db { 'mydb': }
+
+# Sublime Text 2
+
+include sublime_text_2
+sublime_text_2::package { 'Emmet':
+  source => 'sergeche/emmet-sublime'
+}
+
