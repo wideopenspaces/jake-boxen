@@ -118,6 +118,7 @@ include transmission
 include macvim
 include btsync
 include slack
+include evernote
 
 # window management
 
