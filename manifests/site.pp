@@ -116,6 +116,10 @@ include dropbox
 include chrome
 include transmission
 
+# window management
+
+include slate
+
 # Shell
 
 include zsh
