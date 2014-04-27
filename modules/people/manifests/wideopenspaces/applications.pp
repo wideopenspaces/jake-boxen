@@ -1,4 +1,7 @@
 class people::wideopenspaces::applications {
+  $my_username  = $::luser
+  $my_homedir   = "/Users/${my_username}"
+
   # iTerm2
   include iterm2::dev
   include iterm2::colors::solarized_light
@@ -30,5 +33,10 @@ class people::wideopenspaces::applications {
   include sublime_text_2
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
+  }
+
+  repository { 'package-control':
+    source => 'wbond/sublime_package_control',
+    path   => "${my_homedir}/Library/Application Support/Sublime Text 2/Packages/Package Control"
   }
 }
