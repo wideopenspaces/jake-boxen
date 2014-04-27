@@ -115,6 +115,9 @@ include onepassword
 include dropbox
 include chrome
 include transmission
+include macvim
+include btsync
+include slack
 
 # window management
 
