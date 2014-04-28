@@ -31,18 +31,19 @@ class people::wideopenspaces::applications {
 
   # TBD! 
 
-  # Text Editors
+  # Development
   include atom
+  include kaleidoscope
 
-  # Sublime Text 2
+    ## Sublime Text 2
 
-  include sublime_text_2
-  sublime_text_2::package { 'Emmet':
-    source => 'sergeche/emmet-sublime'
-  }
+    include sublime_text_2
+    sublime_text_2::package { 'Emmet':
+      source => 'sergeche/emmet-sublime'
+    }
 
-  repository { 'package-control':
-    source => 'wbond/sublime_package_control',
-    path   => "${my_homedir}/Library/Application Support/Sublime Text 2/Packages/Package Control"
-  }
+    repository { 'package-control':
+      source => 'wbond/sublime_package_control',
+      path   => "${my_homedir}/Library/Application Support/Sublime Text 2/Packages/Package Control"
+    }
 }
