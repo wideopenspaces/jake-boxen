@@ -13,6 +13,7 @@ class people::wideopenspaces::applications {
   include flux::beta
   include onepassword
   include btsync
+  include authy
 
   # browsers
   include chrome

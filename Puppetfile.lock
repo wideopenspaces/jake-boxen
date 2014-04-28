@@ -204,6 +204,11 @@ GITHUBTARBALL
     kaleidoscope (1.0.4)
 
 GITHUBTARBALL
+  remote: pauloconnor/puppet-authy
+  specs:
+    authy (1.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.3)
@@ -236,6 +241,7 @@ GITHUBTARBALL
 DEPENDENCIES
   alfred (>= 0)
   atom (= 1.0.0)
+  authy (= 1.0.1)
   beamer (= 1.0.1)
   boxen (= 3.4.2)
   btsync (>= 0)
