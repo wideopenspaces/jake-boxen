@@ -3,6 +3,7 @@ class people::wideopenspaces::shell {
   include ohmyzsh
 
   include tmux
+  include htop
 
   # iTerm2
   include iterm2::dev

@@ -224,6 +224,11 @@ GITHUBTARBALL
     ohmyzsh (1.0.0)
 
 GITHUBTARBALL
+  remote: skottler/puppet-htop
+  specs:
+    htop (1.0.0)
+
+GITHUBTARBALL
   remote: wideopenspaces/puppet-beamer
   specs:
     beamer (1.0.1)
@@ -247,6 +252,7 @@ DEPENDENCIES
   go (= 1.1.0)
   hipchat (>= 0)
   homebrew (= 1.9.1)
+  htop (= 1.0.0)
   hub (= 1.3.0)
   inifile (= 1.0.3)
   iterm2 (>= 0)
