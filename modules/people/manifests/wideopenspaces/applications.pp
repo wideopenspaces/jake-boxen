@@ -2,32 +2,34 @@ class people::wideopenspaces::applications {
   $my_username  = $::luser
   $my_homedir   = "/Users/${my_username}"
 
-  # iTerm2
-  include iterm2::dev
-  include iterm2::colors::solarized_light
-  include iterm2::colors::solarized_dark
-  include iterm2::colors::arthur
-
-  # Some more
-
+  # Collaboration
   include hipchat
+  include slack
+  include cloudapp
+  include dropbox
+
+  # utilities
   include alfred
   include flux::beta
-  include github_for_mac
   include onepassword
-  include dropbox
-  include chrome
-  include transmission
-  include macvim
   include btsync
-  include slack
+
+  # browsers
+  include chrome
+
+  # Note taking
   include evernote
+
+  # Entertainment
   include spotify
+
+  # file sharing
+  include transmission
 
   # window management
 
   # TBD! 
-  
+
   # Sublime Text 2
 
   include sublime_text_2
