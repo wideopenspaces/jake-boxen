@@ -213,8 +213,14 @@ GITHUBTARBALL
   specs:
     ohmyzsh (1.0.0)
 
+GITHUBTARBALL
+  remote: wideopenspaces/puppet-beamer
+  specs:
+    beamer (1.0.1)
+
 DEPENDENCIES
   alfred (>= 0)
+  beamer (= 1.0.1)
   boxen (= 3.4.2)
   btsync (>= 0)
   chrome (>= 0)

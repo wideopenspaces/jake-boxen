@@ -22,6 +22,7 @@ class people::wideopenspaces::applications {
 
   # Entertainment
   include spotify
+  include beamer
 
   # file sharing
   include transmission
