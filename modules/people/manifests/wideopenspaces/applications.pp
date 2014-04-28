@@ -26,8 +26,8 @@ class people::wideopenspaces::applications {
 
   # window management
 
-  include slate
-
+  # TBD! 
+  
   # Sublime Text 2
 
   include sublime_text_2
