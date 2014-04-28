@@ -30,11 +30,11 @@ class people::wideopenspaces::applications {
 
   # window management
 
-  # TBD! 
+  # TBD!
 
   # Development
   include atom
-  include kaleidoscope
+  # include kaleidoscope # Uncomment, install, bla bla. Buggy
 
     ## Sublime Text 2
 
