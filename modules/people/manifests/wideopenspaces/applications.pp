@@ -31,6 +31,9 @@ class people::wideopenspaces::applications {
 
   # TBD! 
 
+  # Text Editors
+  include atom
+
   # Sublime Text 2
 
   include sublime_text_2
