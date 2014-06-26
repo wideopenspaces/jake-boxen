@@ -184,6 +184,11 @@ GITHUBTARBALL
     transmission (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
@@ -285,6 +290,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   tmux (>= 0)
   transmission (>= 0)
+  vagrant (>= 0)
   xquartz (= 1.1.1)
   zsh (>= 0)
 

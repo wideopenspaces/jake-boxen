@@ -5,4 +5,11 @@ class people::wideopenspaces::servers {
 
   # Redis
   include redis
+
+
+  # Vagrant
+  include vagrant
+  # class { 'vagrant':
+  #   completion: true,
+  # }
 }

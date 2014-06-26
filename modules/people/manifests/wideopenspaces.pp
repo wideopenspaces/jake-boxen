@@ -2,14 +2,14 @@
 #   git::config::global {
 #     'user.name':    value => 'Jacob Stetser';
 #     'user.email':   value => 'jake@wideopenspac.es';
-    
+
 #     'alias.br':     value => 'branch';
 #     'alias.ci':     value => 'commit';
 #     'alias.cia':    value => 'commit --amend';
 #     'alias.co':     value => 'checkout';
 #     'alias.cp':     value => 'cherry-pick';
 #     'alias.di':     value => 'diff';
-#     'alias.lg':     value => "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit";  
+#     'alias.lg':     value => "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit";
 #     'alias.preview': value => 'fetch ; git diff HEAD...origin';
 #     'alias.rb':     value => 'rebase';
 #     'alias.rbc':    value => 'rebase --continue';
@@ -29,10 +29,12 @@
 #   }
 # }
 
+# TODO: Add nodejs
+
 class people::wideopenspaces {
   include people::wideopenspaces::osx
   include people::wideopenspaces::shell
   include people::wideopenspaces::dotfiles
   include people::wideopenspaces::applications
   include people::wideopenspaces::servers
-} 
+}
