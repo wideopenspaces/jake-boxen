@@ -12,4 +12,6 @@ class people::wideopenspaces::servers {
   # class { 'vagrant':
   #   completion: true,
   # }
+
+  include virtualbox
 }
